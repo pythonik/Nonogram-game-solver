@@ -77,7 +77,6 @@ def heuristic(a_list, size, condition=None, random_heuristic=False):
                                 if len(var)>1])
     start = len(a_list[0])
     for i,var in enumerate(a_list):
-        #if len(var)>1 and len(var) > min and i<size:
         if len(var)>1 and condition(len(var),start) and i<size:
             start = i
     return start

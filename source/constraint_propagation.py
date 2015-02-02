@@ -21,13 +21,10 @@ def propagate(a_list, size, count):
     while not done:
         pre_col = list(columns)
         pre_row = list(rows)
-        #plain_print(columns)
         for row_index, row in enumerate(rows):
             if len(row) == 1:
-                # loop through cols(each chars)
                 for char_index, char in enumerate(row[0]):
                     tmp = []
-                    # test if chars matchs
                     for col in columns[char_index]:
                         if col[row_index] == char:
                             tmp.append(col)
@@ -36,10 +33,8 @@ def propagate(a_list, size, count):
                     columns[char_index] = tmp
         for col_index, col in enumerate(columns):
             if len(col) == 1:
-                # loop through each chars
                 for char_index, char in enumerate(col[0]):
                     tmp = []
-                    # test if chars matchs
                     for row in rows[char_index]:
                         if row[col_index] == char:
                             tmp.append(row)

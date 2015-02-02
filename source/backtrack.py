@@ -10,7 +10,6 @@ def permutate(seg, space):
     if not seg or seg== [[]]:
         return [['_']*space]
     ret = []
-    # print 'here?', seg
     for x in xrange(1, space-len(seg)+2):
         for last in permutate(seg[1:], space - x):
             ret.append(['_']*x+seg[0]+last)
