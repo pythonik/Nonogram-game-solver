@@ -1,6 +1,6 @@
 # Nonogram solver 
 ### [Nonogram](http://en.wikipedia.org/wiki/Nonogram) is a Japanese puzzle game
-![Image of Nonogram](http://www.google.ca/imgres?imgurl=http://twanvl.nl/image/nonogram/nonogram-lambda1.png&imgrefurl=http://twanvl.nl/blog/haskell/Nonograms&h=213&w=198&tbnid=a4PYPTwW4lFs-M:&zoom=1&docid=NvVhyPdJpAkFfM&ei=9CHVVKS5O4G6ogTyqoHQDQ&tbm=isch&ved=0CGAQMyghMCE)
+!image of Nonogram](https://lh3.ggpht.com/pJaWBO4asbr1wTm0sURxr2sdcVVjbf-jX06Sa7nKjLdsV_tilJ2Wj1BNYaTHo5pFqO6U=w300)
 following algorithms are used in this repo
 - Backtracking
 - constraint propagation
