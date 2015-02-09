@@ -4,6 +4,6 @@
 
 following algorithms are used in this repo
 - Backtracking
-- constraint propagation
-- constraint propagation with heuristic
+- Constraint propagation
+- Constraint propagation with heuristic
 
