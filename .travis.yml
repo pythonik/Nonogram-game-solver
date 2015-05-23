@@ -2,7 +2,10 @@ language: python
 python:
   - "2.7"
 install:
+  - pip install coveralls
   - make
 script:
   - cd ./build 
   - ./constraint_propagation.py nonograms_2.txt
+after_success:
+  coveralls
