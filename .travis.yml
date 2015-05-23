@@ -4,4 +4,5 @@ python:
 install:
   - make
 script:
-  - cd ./build && .constraint_propagation.py
+  - cd ./build 
+  - ./constraint_propagation.py nonograms_2.txt

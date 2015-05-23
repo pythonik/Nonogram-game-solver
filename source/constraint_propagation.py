@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sys
 import timeit
-data = 'nonograms_2.txt'
+
 show_output = True
 num_of_nono_to_solve = 500
 
@@ -136,11 +136,13 @@ def read_board(config):
             print 'solved: %d nonos' % num_of_nono_to_solve
             break
     print 'avg run time:',sum(run_times)/num_of_nono_to_solve
-def main():
+
+def main(data):
     with open(data, 'r') as f:
         config =filter(lambda x:not x.startswith('#'), 
                     f.readlines())
     read_board(i for i in config)
             
 if __name__ == '__main__':
-    main()
+    data = sys.argv[1]
+    main(data)
