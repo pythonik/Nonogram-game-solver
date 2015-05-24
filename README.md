@@ -3,7 +3,13 @@
 ### [Nonogram](http://en.wikipedia.org/wiki/Nonogram) is a Japanese puzzle game
 ![image of Nonogram](https://lh3.ggpht.com/pJaWBO4asbr1wTm0sURxr2sdcVVjbf-jX06Sa7nKjLdsV_tilJ2Wj1BNYaTHo5pFqO6U=w300)
 
-following algorithms are used in this repo
+## To run
+`git clone git@github.com:pythonik/Nonogram-game-solver.git`
+`make`
+use the sample provided
+`./constraint_propagation.py nonograms_2.txt`
+
+following algorithms are implemented in this project
 - Backtracking
 - Constraint propagation
 - Constraint propagation with heuristic
