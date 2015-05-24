@@ -5,7 +5,11 @@
 
 ## To run
 `git clone git@github.com:pythonik/Nonogram-game-solver.git`
+
+the code and data will be in the build folder after type build
+
 `make`
+
 use the sample provided
 `./constraint_propagation.py nonograms_2.txt`
 
